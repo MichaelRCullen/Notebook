@@ -24,3 +24,9 @@ console.log(numList);
 console.log({name:'Aladdin', grade:9});
 var character = {name:'Jasmine', grade:10};
 console.log(character);
+console.table(character);
+
+console.error('Errors are displayed in red');
+console.warn('Warnings are displayed in yellow');
+console.clear();
+
